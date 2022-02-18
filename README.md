@@ -27,6 +27,10 @@ If you decide to use the Terraform configuration files from this repository, you
 
 ![Deployment Architecture](images/diagram.png)
 
+🟦 User from Europe connecting to Europe Metal client and querying Global IP. The response should be from Europe server.
+
+🟩 User from Europe connecting to America Metal client and querying Global IP. The response should be from America server.
+
 ## How to deploy?
 
 It should be necessary to just include the data missing in the terraform.tfvars file, these are:
