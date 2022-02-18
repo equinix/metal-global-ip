@@ -19,13 +19,13 @@ Before you can start, you need to have the following:
 If you decide to use the Terraform configuration files from this repository, you'll create the following:
 
 * 1 Global IP
-* 2 Metal servers that will host a NGINX home landing page that will be modified just adding Europe (if the server name finish in "eu") and America (if the server name finish in "us")
+* 2 Metal servers that will host a NGINX home landing page that will be modified just adding Europe (if the server name finish in *"eu"*) and America (if the server name finish in *"us"*)
 * The attachment of the Global IP created to the Metal servers acting as *servers*
 * 2 Metal servers that will act as *clients* to test the Global IP from Europe and/or America. Of course you can ignore the ones that are in your same region, but it will be created anyway.
 
 ## Deployment architecture
 
-TBD
+![Deployment Architecture](images/diagram.png)
 
 ## How to deploy?
 
