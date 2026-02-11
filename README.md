@@ -1,6 +1,9 @@
 # Global IPs on Equinix Metal
 Project to show how to use Global IPs on Equinix Metal using two different regions
 
+# Note
+With the upcoming EoL of Equinix Metal on June 30, 2026, this repo is being archived on February 28, 2026.
+
 ## Using the provider
 
 The Equinix Metal provider will be installed on `terraform init` of a template using any of the `metal_*` resources.
